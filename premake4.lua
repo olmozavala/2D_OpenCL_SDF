@@ -30,7 +30,7 @@ solution "SignedDistFunc"
       language "C++"
 
       -- Current project files
-      files {"**.h", "**.cpp" }     
+      files {"src/**.h", "src/**.cpp" }     
 
       links({"OpenCL","GL","GLU","glut","GLEW","X11","m","FileManager",
           "GLManager","CLManager","ImageManager","GordonTimers","freeimage"})
