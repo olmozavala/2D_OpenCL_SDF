@@ -1,6 +1,9 @@
 --OPENCL="/opt/AMDAPP/"
 OPENCL="/usr/local/cuda"
 OZLIB="OZlib"
+-- Creates a couple of folders if they don't exist already
+os.mkdir('images/Results')
+os.mkdir('images/temp_results')
 
 solution "SignedDistFunc"
  --configurations { "Debug", "Release" }
