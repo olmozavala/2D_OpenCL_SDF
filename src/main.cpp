@@ -25,10 +25,8 @@ void selectExample(int example, char** inputImage, char** outputImage){
 
     switch (example) {
         case 0:
-            //*inputImage = (char*) "images/Mini.png";
-            //*outputImage = (char*) "images/MiniResult.png";
-            *inputImage = (char*) "images/Circle.png";
-            *outputImage = (char*) "images/Results/CircleResult.jpg";
+            *inputImage = (char*) "images/BigNew.png";
+            *outputImage = (char*) "images/Results/BigNewResults.jpg";
             break;
         case 1:
             *inputImage = (char*) "images/Basic.png";
@@ -64,7 +62,7 @@ void selectExample(int example, char** inputImage, char** outputImage){
  */
 int main(int argc, char** args){
 
-    int example = 0; //Example to use, by default is 1
+    int example = 3; //Example to use, by default is 1
     if(argc < 2){
         cout<<"Please select an example from 1 to 6. Currently using "<< example <<" as default" << endl;
     }else{

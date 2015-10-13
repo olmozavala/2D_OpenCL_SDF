@@ -36,6 +36,7 @@ it is set to '/usr/local/cuda'.
 To compile the code you just need to run:
     premake4 gmake
     make
+    make config=release ---> If you don't want debugging text
 
 Or using the bash scripts:
 
