@@ -14,7 +14,7 @@ to your clone folder you need to do first your normal clonning:
 
     git clone git@github.com:olmozavala/2D_OpenCL_SDF.git
 
-And then you add the submodules with:
+And then you cd into the folder and add the submodules with:
     
     git submodule init
 

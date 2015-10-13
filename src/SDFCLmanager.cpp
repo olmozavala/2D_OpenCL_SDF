@@ -113,12 +113,12 @@ int SDFCLmanager::runBuf(int SDFmethod, char* inputFile, char* outputFile) {
         queue->finish();
         tm_context.end(); //Finish timer for context creation
 
-        for(int i=0; i<10; i++){
+        //for(int i=0; i<10; i++){
             tm_sdf.start(Timer::SELF);//Starts time for kernels
             evSDF = sdfObj.runSDFBuf(&cl, SDFmethod, buf_mask, buf_sdf, max_warp_size, width, height, evWrtImg, (char*) "./");
             queue->finish();
             tm_sdf.end();//Ends time for kernels
-        }
+        //}
 
         vector<cl::Event> vecFinishSDF;
         vecFinishSDF.push_back(evSDF);
