@@ -8,9 +8,9 @@ Exact Euclidean Distance Transforms of
 Binary Images in Arbitrary Dimensions" by Maurer at al.
 
 # Clone
-This project uses a couple of wrappers and utils that are abailable
-at the OZlib repository. In order for this submodules to be added
-to your clone folder you need to do first your normal clonning:
+This project uses a couple of wrappers and utilities that are available
+at the OZlib repository. In order for this submodule to be added
+to your clone folder you need to do first your normal cloning:
 
     git clone git@github.com:olmozavala/2D_OpenCL_SDF.git
 
