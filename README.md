@@ -29,6 +29,12 @@ to build the project. In ubuntu this two libraries can be installed with:
 
     sudo apt-get install premake4 libfreeimage3 libfreeimage-dev
     
+First you need to compile the OZlib library to build the shared libs.
+This can be done manually by running the OZlib/compile.sh script
+or directly using the compile.sh script in the root folder of this repo. 
+
+    sh ozlib_compile.sh
+
 Verify that the path of OPENCL in the 'premake4.lua' file
 corresponds to the location of your opencl installation. In my case
 it is set to '/usr/local/cuda'.
